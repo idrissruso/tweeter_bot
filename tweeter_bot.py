@@ -37,7 +37,7 @@ class TweeterBot:
         sign_in.click()
         time.sleep(3)
         user_name = self.driver.find_element(By.XPATH, '//input')
-        user_name.send_keys("rusongeka")
+        user_name.send_keys("***********")
         next_p = self.driver.find_element(By.XPATH,
                                           '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]')
         next_p.click()
@@ -45,7 +45,7 @@ class TweeterBot:
         password = self.driver.find_element(By.XPATH,
                                             '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input')
 
-        password.send_keys("Idris@abkar@2014")
+        password.send_keys("*********")
         enter = self.driver.find_element(By.XPATH,
                                          '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div')
         enter.click()
